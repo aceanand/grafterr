@@ -1,0 +1,65 @@
+{
+  "brand": "Grafterr",
+  "navigation": {
+    "logo": { "src": "/images/pos.jpg", "alt": "Grafterr" },
+    "links": [
+      { "label": "Products", "href": "#features" },
+      { "label": "Solutions", "href": "#features" }
+    ],
+    "cta": { "label": "Get started", "href": "#features" }
+  },
+  "hero": {
+    "eyebrow": "Looking for a new",
+    "headlineGradient": "technology provider?",
+    "headlinePrefix": "technology",
+    "headlineSuffix": "provider?",
+    "subheadline": "Explore our success stories to see how businesses like yours have transformed with Grafterr's technology.",
+    "cta": { "label": "Learn more", "href": "#features" },
+    "decorativeShapes": [
+      { "id": "teal-circle", "variant": "teal", "top": "20%", "left": "6%" },
+      { "id": "coral-rect", "variant": "coral", "top": "55%", "right": "6%" }
+    ]
+  },
+  "featuresSection": {
+    "title": "More ways",
+    "titleAccent": "Grafterr",
+    "titleSuffix": "can help you grow your business",
+    "subtitle": "An award-winning, end-to-end restaurant technology & payments platform, designed to streamline food service and automate complex venue operations.",
+    "products": [
+      {
+        "id": "pos",
+        "title": "Point of sale",
+        "description": "A fast, intuitive POS built for high-volume restaurants and quick-service venues.",
+        "image": "/images/pos.jpg"
+      },
+      {
+        "id": "self-service",
+        "title": "Self-service",
+        "description": "Reduce queues with self-order kiosks that boost average order value.",
+        "image": "/images/kiosk.jpg"
+      },
+      {
+        "id": "kds",
+        "title": "Kitchen management",
+        "description": "Streamline back-of-house with smart kitchen display screens.",
+        "image": "/images/kds.jpg"
+      },
+      {
+        "id": "ordering",
+        "title": "Online ordering",
+        "description": "Take direct orders through a branded web and mobile experience.",
+        "image": "/images/online-ordering.jpg"
+      },
+      {
+        "id": "payments",
+        "title": "Payments",
+        "description": "Accept every payment method with integrated, low-fee terminals.",
+        "image": "/images/payments.jpg"
+      }
+    ],
+    "carousel": {
+      "itemsPerView": { "mobile": 1, "tablet": 2, "desktop": 3 },
+      "showArrows": true
+    }
+  }
+}
