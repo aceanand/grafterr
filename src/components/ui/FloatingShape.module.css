@@ -1,0 +1,28 @@
+.shape {
+  pointer-events: none;
+  will-change: transform;
+  display: block;
+}
+
+/* Teal teardrop — matches Figma top-left shape */
+.teal {
+  width: 28px;
+  height: 36px;
+  background: #2dd4bf;
+  border-radius: 50% 50% 40% 60% / 40% 40% 60% 60%;
+  transform: rotate(-30deg);
+  animation: float-teal 5s ease-in-out infinite;
+  box-shadow: 0 6px 20px -6px rgba(45, 212, 191, 0.6);
+}
+
+/* Coral/red small triangle — matches Figma top-right shape */
+.coral {
+  width: 0;
+  height: 0;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-bottom: 20px solid #ef4444;
+  animation: float-coral 6s ease-in-out infinite;
+  background: transparent;
+  box-shadow: none;
+}
