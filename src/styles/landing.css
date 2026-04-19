@@ -1,0 +1,28 @@
+@import "./animations.css";
+
+:root {
+  --brand-blue: #3b82f6;
+  --brand-orange: #f97316;
+  --text-primary: #0f172a;
+  --text-muted: #64748b;
+  --surface: #ffffff;
+  --font-display:
+    "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.landing {
+  min-height: 100vh;
+  background: var(--surface);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.landing *,
+.landing *::before,
+.landing *::after {
+  box-sizing: border-box;
+}
