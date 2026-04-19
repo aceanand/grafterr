@@ -1,0 +1,73 @@
+.hero {
+  position: relative;
+  padding: 5rem 1.5rem 3.5rem;
+  text-align: center;
+  background: var(--surface);
+  overflow: hidden;
+}
+
+/* "Looking for a new" */
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+/* "technology provider?" — gradient */
+.headline {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  margin: 0 0 1.5rem;
+}
+
+/* Subheadline */
+.sub {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.65;
+  color: var(--text-muted);
+  max-width: 400px;
+  margin: 0 auto 2rem;
+}
+
+.sub strong {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+}
+
+/* Floating shapes */
+.shapeLeft {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.shapeRight {
+  position: absolute;
+  top: 55%;
+  right: 5%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+@media (max-width: 640px) {
+  .shapeLeft,
+  .shapeRight {
+    display: none;
+  }
+}
